@@ -46,8 +46,6 @@ jobs:
           cd site
           npm install
           npm run install-jekyll
-        with:
-          cache: 'npm'
 #      - name: Setup Pages
 #        id: pages
 #        uses: actions/configure-pages@v2
