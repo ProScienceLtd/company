@@ -1,5 +1,5 @@
 .DS_Store
 _site
 node_modules
-site/.jekyll-cache
+docs/.jekyll-cache
 /.idea/
