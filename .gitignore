@@ -1,0 +1,6 @@
+.DS_Store
+_site
+components
+node_modules
+site/.jekyll-cache
+/.idea/
