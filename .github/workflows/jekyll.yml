@@ -64,7 +64,7 @@ jobs:
       - name: Use the Upload Artifact GitHub Action
         uses: actions/upload-artifact@v2
         with:
-          name: assets-for-upload
+          name: _site
           path: ./site/_site
 #      - name: Upload artifact
 #        # Automatically uploads an artifact from the './_site' directory by default
