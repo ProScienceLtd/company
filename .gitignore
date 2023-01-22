@@ -2,3 +2,4 @@
 node_modules
 .jekyll-cache
 /.idea/
+site/_site
