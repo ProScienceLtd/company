@@ -60,9 +60,9 @@ jobs:
           JEKYLL_ENV: production
       - name: Use the Upload Artifact GitHub Action
         uses: actions/upload-artifact@v2
-        with:
-          name: github-pages
-          path: ./site/_site
+#        with:
+#          name: github-pages
+#          path: ./site/_site
 #      - name: Upload artifact
 #        # Automatically uploads an artifact from the './_site' directory by default
 #        uses: actions/upload-pages-artifact@v1
