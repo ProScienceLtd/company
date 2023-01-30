@@ -41,15 +41,15 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-#      - name: Build with Jekyll
+      - name: Build with Jekyll
 #        # Outputs to the './_site' directory by default
 #        #--baseurl "${{ steps.pages.outputs.base_url }}"
-#        run: |
-#          pwd
-#          cd site
-#          ls
-#          bundle install
-#          bundle exec jekyll build
+        run: |
+          pwd
+          cd site
+          ls
+          bundle install
+          cd ..
 #        env:
 #          JEKYLL_ENV: production
 #        with:
@@ -68,9 +68,9 @@ jobs:
 
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
-        with:
-          source: ./
-          destination: ./_site
+#        with:
+#          source: ./
+#          destination: ./_site
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
