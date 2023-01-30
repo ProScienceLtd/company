@@ -41,12 +41,11 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
+      - name: change dir
+        run: cd site
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
-        #--baseurl "${{ steps.pages.outputs.base_url }}"
-        run: |
-          cd site/          
-          bundle exec jekyll build
+        run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
       - name: Upload artifact
