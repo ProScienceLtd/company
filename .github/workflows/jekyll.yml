@@ -46,6 +46,8 @@ jobs:
         #--baseurl "${{ steps.pages.outputs.base_url }}"
         run: |
           pwd
+          cd site
+          ls
           bundle install
           bundle exec jekyll build
         env:
