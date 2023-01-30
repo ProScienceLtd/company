@@ -55,22 +55,22 @@ jobs:
 #        with:
 #          source: ./
 #          destination: ../_site
-      - name: Buildy with Jekyll
-        run: |
-          pwd
-          cd site
-          ls
-          bundle install
-          bundle exec jekyll build
-          ls
-          cd ..
-          ls
-#
-#      - name: Build with Jekyll
-#        uses: actions/jekyll-build-pages@v1
-#        with:
-#          source: ./
-#          destination: ./_site
+#      - name: Buildy with Jekyll
+#        run: |
+#          pwd
+#          cd site
+#          ls
+#          bundle install
+#          bundle exec jekyll build
+#          ls
+#          cd ..
+#          ls
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v2
+        with:
+          source: ./
+          destination: ./_site
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v1
