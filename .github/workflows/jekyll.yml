@@ -54,11 +54,11 @@ jobs:
 #          destination: ../_site
       - name: Buildy with Jekyll
         run: |
+          bundle exec jekyll build
 #          pwd
 #          cd site
 #          ls
 #          bundle install
-          bundle exec jekyll build
 #          ls
 #          cd ..
 #          ls
