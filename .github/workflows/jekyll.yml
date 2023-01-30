@@ -52,13 +52,13 @@ jobs:
 #        with:
 #          source: ./
 #          destination: ../_site
-#      - name: Buildy with Jekyll
-#        run: |
+      - name: Buildy with Jekyll
+        run: |
 #          pwd
 #          cd site
 #          ls
 #          bundle install
-#          bundle exec jekyll build
+          bundle exec jekyll build
 #          ls
 #          cd ..
 #          ls
