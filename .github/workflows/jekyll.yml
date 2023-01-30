@@ -31,7 +31,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v2
+      - uses: actions/cache@v2
       - name: Setup Ruby
         uses: ruby/setup-ruby@ee2113536afb7f793eed4ce60e8d3b26db912da4 # v1.127.0
         with:
@@ -41,10 +42,15 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-      - name: change dir
-        run: cd site
+      - name: Build
+        # Outputs to the './_site' directory by default
+        #--baseurl "${{ steps.pages.outputs.base_url }}"
+        run: |
+          pwd
+          bundle install
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
+        #--baseurl "${{ steps.pages.outputs.base_url }}"
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
