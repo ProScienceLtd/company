@@ -42,9 +42,7 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-      - name: Build
-        # Outputs to the './_site' directory by default
-        #--baseurl "${{ steps.pages.outputs.base_url }}"
+      - name: add bundles
         run: |
           pwd
           bundle install
