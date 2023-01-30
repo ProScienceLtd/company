@@ -46,7 +46,7 @@ jobs:
 #        #--baseurl "${{ steps.pages.outputs.base_url }}"
         run: |
           pwd
-          cd /docs
+#          cd /docs
           ls
           bundle install
           cd ..
