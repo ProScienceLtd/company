@@ -55,14 +55,16 @@ jobs:
 #        with:
 #          source: ./
 #          destination: ../_site
-      - name: Build with Jekyll
-#        uses: actions/jekyll-build-pages@v1
+      - name: Buildy with Jekyll
         run: |
           pwd
           cd site
           ls
           bundle install
           bundle exec jekyll build
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
         with:
           source: ./
           destination: ./../_site
