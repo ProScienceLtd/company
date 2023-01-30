@@ -41,15 +41,11 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v3
-      - name: Build with Jekyll
+      - name: Buildy with Jekyll
 #        # Outputs to the './_site' directory by default
 #        #--baseurl "${{ steps.pages.outputs.base_url }}"
         run: |
-          pwd
-          cd ..
-          ls
           bundle install
-          cd /_site
 #        env:
 #          JEKYLL_ENV: production
 #        with:
