@@ -4,7 +4,7 @@ title:  "Meet: Culicoides biting midges"
 date:   2023-01-29 16:17:58 +0000
 description: This is the page description.
 categories: jekyll update
-background: ./../../../../../img/blog/horse_midges_trap.JPG
+background: ./../../../../../img/blog/horse_midges_trap.jpg
 ---
 <h1>Culicoides biting midges</h1>
 

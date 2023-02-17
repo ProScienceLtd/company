@@ -4,7 +4,7 @@ title:  "Collecting live"
 date:   2022-08-29 16:17:58 +0000
 description: This is the page description.
 categories: jekyll update
-background: ./../../../../../img/blog/cows_midges_trap.JPG
+background: ./../../../../../img/blog/cows_midges_trap.jpg
 ---
 Late afternoon at a dairy farm southeast england.
 
