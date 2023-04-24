@@ -4,7 +4,7 @@ title:  "Ticked off"
 date:   2023-04-24 11:57:58 +0000
 description: This is the page description.
 categories: jekyll update
-background: ./../../../../../img/blog/ticks_vial.jpeg
+background: ./../../../../../img/blog/ticks_vial.JPG
 ---
 The tick season has officially started for this year, with the classic long trousers tucked into socks look back in fashion for our field staff (has it ever been out of style?).
 
