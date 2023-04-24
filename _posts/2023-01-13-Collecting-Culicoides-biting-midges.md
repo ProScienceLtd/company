@@ -6,7 +6,7 @@ description: This is the page description.
 categories: jekyll update
 background: ./../../../../../img/blog/horse_midges_trap.jpg
 ---
-# Culicoides biting midges
+# Collecting *Culicoides* biting midges
 
 *Culicoides* biting midges are tiny biting flies (Diptera: Ceratopogonidae) only 1-3mm in length. There are around 50 species in the UK, which can be identified through the patterns on their wings. Several species are known pests, as either as biting nuisance (think the Scottish midge: *Culicoides impunctatus*) or through the potential to spread diseases such as Schmallenberg virus and bluetongue virus (certain species within the Obsoletus and Pulicaris groups).
 
