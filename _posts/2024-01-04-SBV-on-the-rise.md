@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Sschmallenberg cases on the rise?"
-date:   2023-12-01 11:57:58 +0000
+title:  "Schmallenberg cases on the rise?"
+date:   2024-01-04 11:57:58 +0000
 description: This is the page description.
 categories: jekyll update
 background: ./../../../../../img/blog/lambs.JPG
