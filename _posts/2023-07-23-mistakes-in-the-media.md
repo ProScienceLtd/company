@@ -16,7 +16,7 @@ Lastly, the misidentification of mosquitoes can hinder scientific research and p
 
 In addition to these concerns when midges and mosquitoes are misidentified in public platforms, we have also noticed incorrect identification in information within the expert domain. This is particularly concerning, with incorrect identifications (such as pictures of male mosquitoes and winter gnats displayed as female mosquitoes and non-biting flies as midges) in pest control and farming media. 
 
-We can help! If you are putting together a leaflet or blog about mosquitoes, midges or other vector species, get in touch. We can double-check the pictures accurately reflect your text preventing misinformation and embarrassment.
+[We can help!] [We can help!] If you are putting together a leaflet or blog about mosquitoes, midges or other vector species, get in touch. We can double-check the pictures accurately reflect your text preventing misinformation and embarrassment.
 
-
+[We can help!]: https://www.proscience.uk/contact/
 

@@ -10,4 +10,6 @@ We regularly monitor for *Culicoides* biting midges from the beginning of April,
 
 Here at ProScience Ltd we can meet your *Culicoides* midge needs. May it be ongoing surveillance, preserved specimens or field testing traps and repellents.
 
-If you have any questions, or would like a quote, please get in touch with us today!
+If you have any questions, or would like a quote, please [get in touch] [get in touch] with us today!
+
+[get in touch]: https://www.proscience.uk/contact/

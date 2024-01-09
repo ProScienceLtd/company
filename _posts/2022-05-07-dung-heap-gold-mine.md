@@ -6,7 +6,7 @@ categories: jekyll update
 background: ./../../../../../img/blog/dung_heap_midge_traps.jpg
 ---
 
-`One man's rubbish is another man's treasure` or in this case field scientists. 
+`One man's rubbish is another man's treasure`, or in this case, a field scientists. 
 
 Due to the small nature of *Culicoides* biting midges, and difficulties associated with colonising UK species of interest, relatively little is known about the potential for UK species to spread disease. We already know that several species of *Culicoides* can spread Schmallenberg virus and bluetongue virus here in the UK, however how these diseases manage to persist from one year to the next (or overwinter) is poorly understood. Light traps are used to monitor *Culicoides* activity and have been previously used to estimate population dynamics, however well-known biases exist for this trapping technique (including the attractiveness of the trap to different species, low rates of male *Culicoides* capture, variation in daytime activity being overlooked and potential aversion to light in infected *Culicoides*).
 
