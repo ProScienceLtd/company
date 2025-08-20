@@ -15,7 +15,7 @@ First of all; **nice observational skills**. You’re clearly paying attention, 
 
 So... **what is a WaSpooker?**
 
-Glad you asked!
+Glad you asked! 
 
 ---
 
