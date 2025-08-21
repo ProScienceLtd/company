@@ -8,9 +8,3 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.8"
-
-# For Linux builds on GitHub Actions only
-platforms :ruby do
-  gem "ffi"
-end
-
