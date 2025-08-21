@@ -35,3 +35,9 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.8"
 
+# Add ffi gem for Linux and Windows environments, including GitHub Actions
+platforms :mingw, :x64_mingw, :mswin do
+  gem "ffi"
+end
+
+
